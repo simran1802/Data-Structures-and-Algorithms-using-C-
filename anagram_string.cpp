@@ -1,15 +1,9 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-
 int main() {
-
 bool flag=false;
-
 string a = "medical";
-
 string b = "decimal";
-
 int h[26] = { 0 };
 
 int x[26];
