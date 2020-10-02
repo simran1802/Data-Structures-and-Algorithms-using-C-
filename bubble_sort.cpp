@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 void swap(int *x,int* y){
     int temp;
     temp=*x;
@@ -23,7 +22,6 @@ void bubble(int a[],int n){
             break;
     }
 }
-
 
 int main(){
 
