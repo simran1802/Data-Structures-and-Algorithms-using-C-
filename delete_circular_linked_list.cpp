@@ -9,30 +9,16 @@ Node *next;
 }*head;
 
 void create(int a[],int n){
-
 int i;
-
 Node *t,*last;
-
-
 head = new Node();
-
-
 head->data=a[0];
-
-
 head->next=head;
-
-
 last=head;
-
 
 for(i=1;i<n;i++){
 
-
 t = new Node();
-
-
 t->data = a[i];
 
 
